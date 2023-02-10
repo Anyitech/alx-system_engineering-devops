@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for file in *.html
+do
+  target="../$file"
+  if [ ! -e "$target" ] || [ "$file" -nt "$target" ]; then
+    echo "Copying $file to $target"
+    cp "$file" "$target"
+  fi
+done
