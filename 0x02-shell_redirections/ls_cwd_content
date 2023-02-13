@@ -1,0 +1,15 @@
+total 52
+drwxr-xr-x 2 Ifeanyi TheAnomHk 4096 Feb 13 17:43 .
+drwxr-xr-x 6 Ifeanyi TheAnomHk 4096 Feb 13 17:10 ..
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   31 Feb 13 17:17 0-hello_world
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   32 Feb 13 17:11 0-hello_world~
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   26 Feb 13 17:21 1-confused_smiley
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   28 Feb 13 17:20 1-confused_smiley~
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   28 Feb 13 17:24 2-hellofile
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   41 Feb 13 17:26 3-twofiles
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   33 Feb 13 17:30 5-firstlines
+-rw-r--r-- 1 Ifeanyi TheAnomHk   33 Feb 13 17:30 5-firstlines~
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   44 Feb 13 17:38 6-third_line
+-rwxr-xr-x 1 Ifeanyi TheAnomHk   86 Feb 13 17:41 7-file
+-rwxr-xr-x 1 Ifeanyi TheAnomHk  107 Feb 13 17:43 8-cwd_state
+-rw-r--r-- 1 Ifeanyi TheAnomHk    0 Feb 13 17:43 ls_cwd_content

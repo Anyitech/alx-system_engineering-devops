@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Display the 10 newest files in the current directory
+ls -lt --time-style=full-iso | awk '{print $NF}' | head -n 10
