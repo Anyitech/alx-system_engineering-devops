@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# use the tail command to display the last 10 lines of the /etc/passwd file
 tail -n 10 /etc/passwd

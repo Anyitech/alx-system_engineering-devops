@@ -1,1 +1,1 @@
-script to print the absolute working directory
+system engineering devops folder

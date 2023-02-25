@@ -1,10 +1,2 @@
 #!/bin/bash
-
-file_path="/tmp/iamafile"
-
-if [ -e "$file_path" ]; then
-  echo "The type of $file_path is:"
-  file "$file_path"
-else
-  echo "$file_path does not exist."
-fi
+file /tmp/iamafile

@@ -1,2 +1,2 @@
-read -p "Enter a string: " str
-echo "${str//A/Z}" | sed 's/c/e/g'
+#!/bin/bash
+tr "A" "Z" | tr "c" "e"

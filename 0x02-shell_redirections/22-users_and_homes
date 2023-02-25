@@ -1,17 +1,2 @@
 #!/bin/bash
-
-# store the contents of the /etc/passwd file in a variable
-file_contents=$(cat /etc/passwd)
-
-# loop through the contents of the file
-while read -r line; do
-  # extract the username and home directory by splitting the line on ':'
-  username=$(echo $line | awk -F':' '{print $1}')
-  home_dir=$(echo $line | awk -F':' '{print $6}')
-  
-  # print the username and home directory
-  echo "Username: $username"
-  echo "Home Directory: $home_dir"
-  echo ""
-done <<< "$file_contents" | sort
-
+cut -d ':' -f 1,6 /etc/passwd | sort

@@ -1,2 +1,2 @@
-read -p "Enter a string: " str
-echo "${str}" | rev
+#!/bin/bash
+rev
